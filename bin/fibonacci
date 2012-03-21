@@ -1,0 +1,5 @@
+#! /usr/bin/env node
+
+var fibonacci = require('./lib/binding').fibonacci;
+
+console.log(fibonacci(parseInt(process.argv[2], 10)));
